@@ -1,8 +1,8 @@
-import '../style/index.sass'
+import '../style/app.sass'
 import { AppProps } from "next/app"
 
-const app = ({ Component, pageProps }: AppProps) => {
+const App = ({ Component, pageProps }: AppProps) => {
     return <Component { ...pageProps } />
 }
 
-export default app
+export default App

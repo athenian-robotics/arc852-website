@@ -1,6 +1,5 @@
-import Head from 'next/head'
-import { Container, Row, Card, Button, Navbar, Nav, NavDropdown } from 'react-bootstrap'
-import Layout from "./_layout";
+import { Button, Card, Container, Row } from 'react-bootstrap'
+import Layout from "../components/Layout";
 
 const home = () => {
     return (
