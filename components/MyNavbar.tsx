@@ -5,7 +5,7 @@ const MyNavbar = () => {
     return (
         <Navbar variant="dark" className="navbar-arcblue" expand="lg">
             <Container>
-                <Navbar.Brand href="/">
+                <Navbar.Brand href="/" className="brand-logotype">
                     <img
                         alt=""
                         src="/favicon.ico"

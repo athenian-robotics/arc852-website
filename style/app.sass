@@ -1,5 +1,8 @@
 @import "~bootstrap/scss/bootstrap"
 //@import "custom.sass" // Uncomment this when ready to implement a custom theme in that file
+@import mixins
+
+@include font-face(HOUSE3009-Spaceport, "../fonts/HOUSE3009-Spaceport", null, null, eot svg ttf woff)
 
 .md-container
   max-width: 800px
@@ -23,3 +26,6 @@
 
 .navbar-arcblue
   background-color: #0e122e
+
+.brand-logotype
+  font-family: HOUSE3009-Spaceport, sans-serif
