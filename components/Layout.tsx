@@ -23,11 +23,13 @@ const Layout = ({ title, children }: Props) => {
                 <meta name="msapplication-TileColor" content="#da532c"/>
                 <meta name="theme-color" content="#0e122e"/>
             </Head>
-            <MyNavbar/>
-            <Container>
-                <main>{ children }</main>
-            </Container>
-            <Footer/>
+            <body className="d-flex flex-column min-vh-100">
+                <MyNavbar/>
+                <Container>
+                    <main>{ children }</main>
+                </Container>
+                <Footer/>
+            </body>
         </>
     )
 }

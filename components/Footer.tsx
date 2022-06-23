@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <footer className="cntr-footer">
+        <footer className="cntr-footer mt-auto">
             <a
                 href="https://vercel.com?filter=next.js&utm_source=github&utm_medium=example&utm_campaign=next-example"
                 target="_blank"
